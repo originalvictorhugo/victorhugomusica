@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Victor Hugo | Cantor Solo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Flag_of_Par%C3%A1.svg/1200px-Flag_of_Par%C3%A1.svg.png'), 
+                  url('https://upload.wikimedia.org/wikipedia/commons/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg'), 
+                  url('https://upload.wikimedia.org/wikipedia/commons/f/f4/Bandeira_de_Minas_Gerais.svg');
+      background-size: 33.3% 100%, 33.3% 100%, 33.4% 100%;
+      background-repeat: no-repeat;
+      background-position: left, center, right;
+      color: #fff;
+    }
+    header {
+      background: rgba(0,0,0,0.6);
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+    }
+    header img {
+      position: absolute;
+      top: 10px;
+      width: 80px;
+    }
+    header img.left { left: 10px; }
+    header img.right { right: 10px; }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #ffeb3b;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #ffd700;
+    }
+    nav {
+      background-color: #cc0000;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffff00;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    section h2 {
+      color: #ff4081;
+      border-bottom: 2px solid #ff4081;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    .radio-player {
+      margin: 20px auto;
+      text-align: center;
+    }
+    .radio-player iframe {
+      width: 100%;
+      height: 80px;
+      border: none;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .social a {
+      color: #ffeb3b;
+      margin: 0 10px;
+      font-size: 1.4em;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ara_ararauna_-perching_on_branch-8a.jpg/320px-Ara_ararauna_-perching_on_branch-8a.jpg" class="left" alt="Arara">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Ramphastos_toco_-Brazil-8b.jpg/320px-Ramphastos_toco_-Brazil-8b.jpg" class="right" alt="Tucano">
+  <h1>Victor Hugo</h1>
+  <p>Cantor Solo | Desde 2010</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#musicas">Músicas</a>
+  <a href="#radio">Rádio</a>
+  <a href="#agenda">Agenda</a>
+  <a href="#fotos">Fotos</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <h2>Sobre</h2>
+  <p>Victor Hugo nasceu em 19 de abril de 1994, em São Bernardo do Campo - SP. Iniciou sua carreira musical em 2010, construindo uma trajetória sólida nos palcos e desenvolvendo um estilo marcante, inspirado na diversidade cultural brasileira e na energia da floresta amazônica.</p>
+</section>
+
+<section id="musicas">
+  <h2>Músicas</h2>
+  <iframe src="https://open.spotify.com/embed/track/6rqhFgbbKwnb9MLmUQDhG6" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</section>
+
+<section id="radio">
+  <h2>Rádio</h2>
+  <div class="radio-player">
+    <iframe src="https://player.radioboss.fm/widget?u=https://radio.victorhugomusica.com/stream" allow="autoplay"></iframe>
+  </div>
+</section>
+
+<section id="agenda">
+  <h2>Agenda</h2>
+  <ul>
+    <li><strong>15/06/2025</strong> - Teatro Municipal, São Paulo</li>
+    <li><strong>22/06/2025</strong> - Festival de Inverno, Campos do Jordão</li>
+    <li><strong>05/07/2025</strong> - Palco Sunset, Rio de Janeiro</li>
+  </ul>
+</section>
+
+<section id="fotos" class="gallery">
+  <h2>Fotos</h2>
+  <div class="photos">
+    <img src="https://via.placeholder.com/300x200?text=Show+1" alt="Show 1">
+    <img src="https://via.placeholder.com/300x200?text=Show+2" alt="Show 2">
+    <img src="https://via.placeholder.com/300x200?text=Backstage" alt="Backstage">
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p>Email para shows e parcerias: <a href="mailto:contato@victorhugomusica.com">contato@victorhugomusica.com</a></p>
+  <div class="social">
+    <a href="https://instagram.com/victorhugo" target="_blank">Instagram</a> |
+    <a href="https://youtube.com/victorhugo" target="_blank">YouTube</a> |
+    <a href="https://open.spotify.com/artist/ID" target="_blank">Spotify</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Victor Hugo. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
